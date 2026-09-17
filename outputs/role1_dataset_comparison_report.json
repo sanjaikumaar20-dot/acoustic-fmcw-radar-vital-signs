@@ -1,0 +1,46 @@
+{
+  "dataset_a_synthetic": {
+    "source": "Your Role 1 Synthetic Simulation Engine",
+    "sample_rate_hz": 48000,
+    "samples": 432000,
+    "duration_sec": 9.0,
+    "f_start_hz": 18000,
+    "f_end_hz": 21000,
+    "bandwidth_hz": 3000,
+    "chirp_duration_s": 0.1,
+    "gap_duration_s": 0.05,
+    "frame_period_s": 0.15,
+    "pulse_repetition_freq_hz": 6.6667,
+    "rms_amplitude": 0.19702087342739105,
+    "peak_amplitude": 0.40708470344543457,
+    "crest_factor_db": 6.303450873165887,
+    "in_band_snr_db": 21.21148109436035,
+    "hardware_required": false
+  },
+  "dataset_b_hardware": {
+    "source": "Jishnu Role 1 Hardware Streaming Audio Engine",
+    "sample_rate_hz": 48000,
+    "samples": 402432,
+    "duration_sec": 8.384,
+    "f_start_hz": 17500,
+    "f_end_hz": 19200,
+    "bandwidth_hz": 1700,
+    "chirp_duration_s": 0.1,
+    "gap_duration_s": 0.0,
+    "frame_period_s": 0.1,
+    "pulse_repetition_freq_hz": 10.0,
+    "rms_amplitude": 0.011771079152822495,
+    "peak_amplitude": 0.141571044921875,
+    "crest_factor_db": 21.60316314925506,
+    "in_band_snr_db": 19.341638565063477,
+    "hardware_required": true
+  },
+  "comparative_analysis": {
+    "bandwidth_ratio": 1.7647058823529411,
+    "theoretical_range_resolution_a_mm": 57.166666666666664,
+    "theoretical_range_resolution_b_mm": 100.88235294117646,
+    "range_resolution_advantage": "Dataset A has 1.76x finer range resolution (57.2 mm vs 100.9 mm)",
+    "frame_rate_comparison": "Dataset B has higher slow-time frame rate (10.0 Hz vs 6.67 Hz)",
+    "reproducibility": "Dataset A provides 100% deterministic mathematical repeatability without acoustic room calibration requirements"
+  }
+}
