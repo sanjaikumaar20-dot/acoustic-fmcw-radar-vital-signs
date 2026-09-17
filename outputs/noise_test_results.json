@@ -1,0 +1,26 @@
+{
+  "30dB": {
+    "snr_db": 30,
+    "rmse_mm": 0.057464549211598374,
+    "estimated_resp_bpm": 13.28125,
+    "resp_error_bpm": 1.71875
+  },
+  "20dB": {
+    "snr_db": 20,
+    "rmse_mm": 0.15307935540930984,
+    "estimated_resp_bpm": 13.28125,
+    "resp_error_bpm": 1.71875
+  },
+  "10dB": {
+    "snr_db": 10,
+    "rmse_mm": 0.5297927342192255,
+    "estimated_resp_bpm": 13.476562499999998,
+    "resp_error_bpm": 1.5234375000000018
+  },
+  "5dB": {
+    "snr_db": 5,
+    "rmse_mm": 4.975712173875621,
+    "estimated_resp_bpm": 14.257812499999998,
+    "resp_error_bpm": 0.7421875000000018
+  }
+}

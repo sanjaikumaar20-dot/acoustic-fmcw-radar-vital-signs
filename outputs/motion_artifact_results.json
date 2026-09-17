@@ -1,0 +1,10 @@
+{
+  "true_bpm": 15.0,
+  "recovered_bpm": 15.039062499999998,
+  "error_bpm": 0.039062499999998224,
+  "artifacts_injected": [
+    "5mm Posture Step @ t=10s",
+    "8mm Torso Movement @ t=20s"
+  ],
+  "mitigation_success": true
+}

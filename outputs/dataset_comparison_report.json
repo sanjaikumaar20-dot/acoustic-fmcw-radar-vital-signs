@@ -1,0 +1,23 @@
+{
+  "dataset_a": {
+    "name": "Original Sample-Rounded Dataset",
+    "samples": 432000,
+    "rms": 0.19702087342739105,
+    "peak": 0.40708470344543457,
+    "crest_factor": 2.066200887051661,
+    "in_band_snr_db": 20.50237464904785
+  },
+  "dataset_b": {
+    "name": "Continuous Fractional-Delay Reference",
+    "samples": 432000,
+    "rms": 0.19704459607601166,
+    "peak": 0.40554848313331604,
+    "crest_factor": 2.05815582465816,
+    "in_band_snr_db": 20.50189971923828
+  },
+  "metrics": {
+    "chirp_cross_correlation_coeff": 0.9566848278045654,
+    "spectral_similarity_pct": 95.66848278045654,
+    "physical_delay_preservation": "High (Dataset B) vs Quantized (Dataset A)"
+  }
+}
