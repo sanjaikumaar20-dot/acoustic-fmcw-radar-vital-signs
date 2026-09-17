@@ -1,0 +1,30 @@
+{
+  "data_type": "SIMULATED_ACOUSTIC_FMCW",
+  "role1_to_role2_contract": {
+    "rx_audio": "rx_audio.npy",
+    "shape": [
+      432000
+    ],
+    "dtype": "float32",
+    "sample_rate_hz": 48000
+  },
+  "fmcw": {
+    "f_start_hz": 18000,
+    "f_end_hz": 21000,
+    "bandwidth_hz": 3000,
+    "chirp_duration_s": 0.1,
+    "gap_duration_s": 0.05,
+    "num_chirps": 60
+  },
+  "synthetic_target": {
+    "nominal_range_m": 1.0,
+    "speed_of_sound_mps": 343.0,
+    "respiration_hz": 0.25,
+    "respiration_bpm": 15.0,
+    "heartbeat_hz": 1.2,
+    "heartbeat_bpm": 72.0,
+    "respiration_displacement_mm": 4.0,
+    "heartbeat_displacement_mm": 0.15
+  },
+  "note": "Synthetic engineering validation data. Not a real human measurement."
+}

@@ -1,0 +1,29 @@
+{
+  "respiration": {
+    "estimated_hz": 0.2439024390243902,
+    "estimated_bpm": 14.634146341463413,
+    "reference_bpm": 15.0,
+    "error_bpm": 0.3658536585365866,
+    "estimated_amplitude_mm": 4.828626872340262,
+    "reference_amplitude_mm": 4.0,
+    "is_valid": true
+  },
+  "cardiac": {
+    "estimated_hz": 1.7431640624999998,
+    "estimated_bpm": 104.58984374999999,
+    "reference_bpm": 72.0,
+    "error_bpm": 32.589843749999986,
+    "estimated_amplitude_mm": 1.2472494647674952,
+    "reference_amplitude_mm": 0.15,
+    "is_recovered": false,
+    "snr_metric": 1.884561134438885
+  },
+  "dataset_diagnostics": {
+    "sample_delay_quantization_detected": true,
+    "number_of_abrupt_phase_steps": 9,
+    "step_size_theoretical_mm": 3.5729166666666665,
+    "total_chirps": 60,
+    "total_duration_s": 8.850000000000001,
+    "fs_slow_hz": 6.666666666666666
+  }
+}
